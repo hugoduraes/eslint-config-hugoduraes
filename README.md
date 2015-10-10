@@ -8,10 +8,7 @@ My ESLint config, including `ES6` and `React` rules.
 
 ### HOW TO USE
 ```
-npm install --save-dev eslint
-npm install --save-dev babel-eslint
-npm install --save-dev eslint-plugin-react
-npm install --save-dev eslint-config-hugoduraes
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-config-hugoduraes
 ```
 
 **Add to your .eslintrc**
@@ -29,5 +26,5 @@ npm install --save-dev eslint-config-hugoduraes
 Install [linter](https://atom.io/packages/linter) and [linter-eslint](https://atom.io/packages/linter-eslint).
 
 ```
-apm install linter linter-eslint language-babel
+apm install linter linter-eslint
 ```
