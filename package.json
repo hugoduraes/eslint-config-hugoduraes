@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-hugoduraes",
+  "version": "1.0.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugoduraes/eslint-config-hugoduraes.git"
+  },
+  "author": "Hugo Durães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugoduraes/eslint-config-hugoduraes/issues"
+  },
+  "homepage": "https://github.com/hugoduraes/eslint-config-hugoduraes#readme"
+}
