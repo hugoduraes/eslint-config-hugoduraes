@@ -11,7 +11,7 @@
     "url": "git+https://github.com/hugoduraes/eslint-config-hugoduraes.git"
   },
   "author": "Hugo Durães",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hugoduraes/eslint-config-hugoduraes/issues"
   },
