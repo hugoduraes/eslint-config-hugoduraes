@@ -28,3 +28,7 @@ Install [linter](https://atom.io/packages/linter) and [linter-eslint](https://at
 ```
 apm install linter linter-eslint
 ```
+
+---
+
+Inspired by [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
