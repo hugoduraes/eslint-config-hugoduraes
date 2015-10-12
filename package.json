@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/hugoduraes/eslint-config-hugoduraes/issues"
   },
-  "homepage": "https://github.com/hugoduraes/eslint-config-hugoduraes#readme"
+  "homepage": "https://github.com/hugoduraes/eslint-config-hugoduraes#readme",
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0",
+    "eslint-plugin-react": "^3.5.1"
+  }
 }
