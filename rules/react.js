@@ -5,7 +5,7 @@ module.exports = {
     jsx: true
   },
   rules: {
-    'jsx-quotes': [2, 'prefer-single'],
+    'jsx-quotes': [2, 'prefer-double'],
 
     // https://github.com/yannickcr/eslint-plugin-react
     'react/display-name': 0,
