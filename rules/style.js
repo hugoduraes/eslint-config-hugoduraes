@@ -29,7 +29,7 @@ module.exports = {
     'no-new-object': 2,
     'no-spaced-func': 2,
     'no-trailing-spaces': 2,
-    'no-extra-parens': 2,
+    'no-extra-parens': [2, 'functions'],
     'no-underscore-dangle': 0,
     'one-var': [2, 'never'],
     'padded-blocks': [2, 'never'],
