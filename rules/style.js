@@ -40,7 +40,7 @@ module.exports = {
     }],
     'space-after-keywords': 2,
     'space-before-blocks': 2,
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [2, 'always'],
     'space-infix-ops': 1,
     'space-return-throw-case': 2,
     'spaced-comment': 2
