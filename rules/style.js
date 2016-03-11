@@ -38,11 +38,10 @@ module.exports = {
       before: false,
       after: true
     }],
-    'space-after-keywords': 2,
+    'keyword-spacing': [2, {before: true, after: true}],
     'space-before-blocks': 2,
     'space-before-function-paren': [2, 'always'],
     'space-infix-ops': 1,
-    'space-return-throw-case': 2,
     'spaced-comment': 2
   }
 };
