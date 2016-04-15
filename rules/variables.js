@@ -6,6 +6,7 @@ module.exports = {
       vars: 'all',
       args: 'none'
     }],
-    'no-use-before-define': 2
+    'no-use-before-define': 2,
+    'no-undef': 2
   }
 };
