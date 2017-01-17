@@ -1,14 +1,12 @@
 ## eslint-config-hugoduraes
 
-### ES6 + REACT RULES
-
-My ESLint config, including `ES6` and `React` rules.
+My ESLint config.
 
 ---
 
 ### HOW TO USE
 ```
-npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-config-hugoduraes
+npm install --save-dev eslint eslint-config-hugoduraes
 ```
 
 **Add to your .eslintrc**
@@ -28,7 +26,3 @@ Install [linter](https://atom.io/packages/linter) and [linter-eslint](https://at
 ```
 apm install linter linter-eslint
 ```
-
----
-
-Inspired by [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).

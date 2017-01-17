@@ -3,9 +3,6 @@
   "version": "3.0.0",
   "description": "eslint config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hugoduraes/eslint-config-hugoduraes.git"
@@ -17,8 +14,6 @@
   },
   "homepage": "https://github.com/hugoduraes/eslint-config-hugoduraes#readme",
   "devDependencies": {
-    "babel-eslint": "^6.1.2",
-    "eslint": "^3.0.1",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint": "^3.13.1"
   }
 }
