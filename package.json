@@ -2,18 +2,40 @@
   "name": "eslint-config-hugoduraes",
   "version": "4.0.0",
   "description": "eslint config",
-  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Hugo Durães",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hugoduraes/eslint-config-hugoduraes.git"
   },
-  "author": "Hugo Durães",
-  "license": "MIT",
+  "homepage": "https://github.com/hugoduraes/eslint-config-hugoduraes#readme",
   "bugs": {
     "url": "https://github.com/hugoduraes/eslint-config-hugoduraes/issues"
   },
-  "homepage": "https://github.com/hugoduraes/eslint-config-hugoduraes#readme",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint -c index.js './**/*.{js,ts}'",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 2.25",
+    "eslint": ">= 6.8",
+    "eslint-plugin-prettier": ">= 3.1",
+    "prettier": ">= 2.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint-config-prettier": "^6.10.1",
+    "typescript": "^3.8.3"
+  },
   "devDependencies": {
-    "eslint": "^4.18.2"
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^2.0.2"
   }
 }

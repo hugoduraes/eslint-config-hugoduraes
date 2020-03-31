@@ -1,28 +1,37 @@
-## eslint-config-hugoduraes
+# eslint-config-hugoduraes
 
-My ESLint config.
+Shareable ESLint configuration for my personal projects.
 
 ---
 
-### HOW TO USE
-```
-npm install --save-dev eslint eslint-config-hugoduraes
+## HOW TO USE
+
+**Install it**
+
+Using `npm`:
+
+```sh
+npm install -D eslint-config-hugoduraes \
+    eslint \
+    prettier \
+    eslint-plugin-prettier \
+    @typescript-eslint/eslint-plugin   
 ```
 
-**Add to your .eslintrc**
+or, using `yarn`: 
+
+```sh
+yarn add -D eslint-config-hugoduraes \
+    eslint \
+    prettier \
+    eslint-plugin-prettier \
+    @typescript-eslint/eslint-plugin
 ```
+
+**Add it to your ESLint configuration file**
+
+```json
 {
   "extends": "eslint-config-hugoduraes"
 }
-```
-
----
-
-### LIVE LINTING
-
-#### Atom
-Install [linter](https://atom.io/packages/linter) and [linter-eslint](https://atom.io/packages/linter-eslint).
-
-```
-apm install linter linter-eslint
 ```
