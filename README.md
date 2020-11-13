@@ -13,8 +13,6 @@ Using `npm`:
 ```sh
 npm install -D eslint-config-hugoduraes \
     eslint \
-    prettier \
-    eslint-plugin-prettier \
     @typescript-eslint/eslint-plugin   
 ```
 
@@ -23,8 +21,6 @@ or, using `yarn`:
 ```sh
 yarn add -D eslint-config-hugoduraes \
     eslint \
-    prettier \
-    eslint-plugin-prettier \
     @typescript-eslint/eslint-plugin
 ```
 

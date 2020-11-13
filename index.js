@@ -18,7 +18,4 @@ module.exports = {
       impliedStrict: true,
     },
   },
-  rules: {
-    'prettier/prettier': ['error', require('./.prettierrc.js')],
-  },
 };
